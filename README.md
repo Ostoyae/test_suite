@@ -28,3 +28,11 @@ More than four steps:
 * Add your name to the `AUTHORS` file!
 
 *Note that the above strictly applies to simple shell tests. Scripts involving more complicated commands may require more changes. If you need help writing new test script, reach out for help!*
+
+## Style Guide
+
+[Follow me!](https://google.github.io/styleguide/shell.xml)
+
+<p align="center">
+  <img src="http://www.holbertonschool.com/holberton-logo.png">
+</p>
