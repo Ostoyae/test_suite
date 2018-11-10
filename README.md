@@ -24,7 +24,7 @@ More than four steps:
 * Make the following edits to the new file:
   * At the top, change the variable `command` to the new command you'd like to test.
   * In the `# check the result` section, change the number in the `if [ $nmatch...` conditional to the number of lines contained in your new test command.
-    * ie. If you are defining a new command `echo 'hi'`, the corresponding conditional should be `if [ $nmatch -eq 1 ];`
+    * ie. If you are defining a new command `echo 'hi'`, the corresponding conditional should be `[ $nmatch -eq 1 ]`
 * Add your name to the `AUTHORS` file!
 
 *Note that the above strictly applies to simple shell tests. Scripts involving more complicated commands may require more changes. If you need help writing new test script, reach out for help!*
