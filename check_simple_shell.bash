@@ -63,8 +63,9 @@ do
     echo "> $dir"
     for testname in `ls "$dir" | grep -v "~$"`
     do
-	   echo -n "   # $testname: "
+	   echo -n "   $ $testname: "
 	   source "$dir$testname"
+	   echo "     thank u, next"
     done
 done
 
