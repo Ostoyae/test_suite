@@ -29,7 +29,7 @@ More than four steps:
   * Make necessary changes to the `# check the result` and/or `# send commands` sections. This is where it gets a little tricky, but let me try to help you out:
     * Think about the best way to compare output with the `/bin/sh` shell. Most often you will want to use either `grep` or `diff`.
     * Trying to compare output character for character? Pipe the command into two separate files and `diff` the result. See [01_simple_shell_0.1/bin_hostname](https://github.com/stefansilverio/test_suite/blob/master/01_simple_shell_0.1/bin_hostname) for reference.
-    * Trying to test a command where output might not match character for character 100%? Use `grep` to match a smaller commanility between the two. See [01_simple_shell_0.1/bin/ls](https://github.com/stefansilverio/test_suite/blob/master/01_simple_shell_0.1/bin_ls) for reference.
+    * Trying to test a command where output might not match character for character 100%? Use `grep` to match a smaller commanility between the two. See [01_simple_shell_0.1/bin_ls](https://github.com/stefansilverio/test_suite/blob/master/01_simple_shell_0.1/bin_ls) for reference.
     * Still not sure what to do? Ask for help!
   * Update the documentation with a brief description of your new test.
 * Add your name to the `AUTHORS` file!
