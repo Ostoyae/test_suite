@@ -37,3 +37,7 @@ More than four steps:
 <p align="center">
   <img src="http://www.holbertonschool.com/holberton-logo.png">
 </p>
+
+## :mag: License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
