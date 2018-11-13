@@ -2,7 +2,7 @@
 #
 # test the end-of-file condition (Ctrl+D)
 
-command=""
+command=""
 tmp_file="checker_tmp_file_$RANDOM"
 
 # clean up
