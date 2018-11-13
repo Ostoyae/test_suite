@@ -20,7 +20,8 @@ After execution, the above script will run your shell executable on every test f
 
 More than four steps:
 * In a given directory, make a new copy of an existing file.
-* Open the new file with your favorite text editor (*cough*vim*coughcough*)
+* Open the new file with your favorite text editor (*cough*MS-DOS Editor*coughcough*)
+  * You play a dangerous game playing favorites on Open Source
 * Make the following edits to the new file:
   * At the top, change the variable `command` to the new command you'd like to test.
   * In the `# check the result` section, change the number in the `if [ $nmatch...` conditional to the number of lines contained in your new test command.
