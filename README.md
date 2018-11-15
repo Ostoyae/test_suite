@@ -6,7 +6,7 @@ Hah! As if anything about this project is "simple."
 
 Four steps:
 * Give your shell a clever name.
-* Open the file `config` and update the variable `SHELL` with the name of your shell.
+* Open the file `config` and update the variable `SHELL` with the name of your shell (ex: "./hsh").
 * Move the executable for your shell into your local copy of this repository.
 * Does your shell have a clever name? No? Go back and repeat steps 1-3.
 
