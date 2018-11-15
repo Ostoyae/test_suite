@@ -36,6 +36,15 @@ More than four steps:
 
 *Note that scripts involving more complicated commands may require more changes than described above. If you need help writing a new test script, reach out for help!*
 
+## Tips for Testing Your Shell
+
+* Valgrind vAlgrind valgrinD vaLgrind valGrind
+* Always test everything in both interactive and non-interactive mode
+* When in doubt, compare results or output to `/bin/sh`
+* valgRind vaLgrind valgriNd Valgrind vAlgrind
+* Check return values - compare with `/bin/sh`
+* Valgrind some more, just for kicks
+
 ## Style Guide
 
 [Follow me!](https://google.github.io/styleguide/shell.xml)
