@@ -1,0 +1,32 @@
+#!/bin/bash
+#
+# test builtin cd with arg /tmp 
+
+command="cd /tmp
+pwd"
+tmp_file="checker_tmp_file_$RANDOM"
+
+# clean up
+stop_shell
+rm -f $tmp_file
+
+# create a pseudo random file
+touch $tmp_file
+# send commands
+echo "/tmp" > $tmp_file
+echo "$command" | $SHELL > $OUTPUTFILE 2> /dev/null &
+
+# wait a little bit
+$SLEEP $SLEEPSECONDS
+
+# check the result
+nmatch=`diff $tmp_file $OUTPUTFILE | wc -c`
+if [ $nmatch -eq 0 ]; then
+	   print_happy
+else
+	   print_unhappy
+fi
+
+# clean up
+stop_shell
+rm -f $tmp_file

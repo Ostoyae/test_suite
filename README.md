@@ -6,7 +6,7 @@ Hah! As if anything about this project is "simple."
 
 Four steps:
 * Give your shell a clever name.
-* Open the file `config` and update the variable `SHELL` with the name of your shell.
+* Open the file `config` and update the variable `SHELL` with the name of your shell (ex: "./hsh").
 * Move the executable for your shell into your local copy of this repository.
 * Does your shell have a clever name? No? Go back and repeat steps 1-3.
 
@@ -35,6 +35,15 @@ More than four steps:
 * Add your name to the `AUTHORS` file!
 
 *Note that scripts involving more complicated commands may require more changes than described above. If you need help writing a new test script, reach out for help!*
+
+## Tips for Testing Your Shell
+
+* Valgrind vAlgrind valgrinD vaLgrind valGrind
+* Always test everything in both interactive and non-interactive mode
+* When in doubt, compare results or output to `/bin/sh`
+* valgRind vaLgrind valgriNd Valgrind vAlgrind
+* Check return values - compare with `/bin/sh`
+* Valgrind some more, just for kicks
 
 ## Style Guide
 
